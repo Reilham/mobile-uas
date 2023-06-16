@@ -17,19 +17,6 @@ class getstartedpage extends StatelessWidget {
                   fit: BoxFit.cover,
                   image: AssetImage("assets/cuci_sepatu 1.png"))),
         ),
-        Container(
-          height: 444,
-          width: double.infinity,
-          decoration: BoxDecoration(
-              gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Colors.black.withOpacity(0.9),
-              Colors.black.withOpacity(0.0),
-            ],
-          )),
-        ),
         SafeArea(
             child: Column(
           children: [
